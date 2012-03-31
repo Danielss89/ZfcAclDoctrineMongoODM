@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcAclMongoODM;
+namespace ZfcAclDoctrineMongoODM;
 
 use ZfcBase\Module;
 
