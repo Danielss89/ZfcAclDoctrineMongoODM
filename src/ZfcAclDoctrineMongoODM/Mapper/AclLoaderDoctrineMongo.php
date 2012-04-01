@@ -5,11 +5,10 @@ use ZfcAcl\Model\Mapper;
 
 class AclLoaderDoctrineMongo implements AclLoader 
 {
-    private $dm;
+    protected $dm;
     
     public function loadAclByRoleId(ZendAcl $acl, $roleId)
     {
-        
     }
     
     public function getDm ()
